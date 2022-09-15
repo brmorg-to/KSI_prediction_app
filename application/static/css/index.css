@@ -1,0 +1,165 @@
+thead {
+    background-color: #012A56;
+    color: #ffff;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container {
+    max-width: 90% !important;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar > div > a > img{
+    width: 5rem !important;
+    height: auto;
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand > div {
+    padding-left: 1rem !important;
+} 
+
+.prediction-body {
+    background-color: #808080;
+    color: #ffff;
+    display:flex !important;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.classification-report{
+    margin: 2rem auto;
+}
+
+.classification-report > div {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.card.first-row {
+    margin-top: 5rem;
+}
+
+#header-name {
+    padding-left: 5px;
+}
+
+#render-csv {
+    margin-bottom: 2rem;
+}
+
+#dialog-prediction {
+    margin: 2rem auto;
+    max-width: 30% !important;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#dialog-predictions {
+    margin: 5rem auto;
+    max-width: 80% !important;
+    font-size: large;
+    font-weight: 800;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% !important;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 60vh;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.header {
+    position: sticky;
+    top:0;
+}
+
+.btn-success {
+    background-color: #012A56 !important;
+    border-color: #ffff !important;
+}
+
+.btn-success:hover {
+    background-color: #0488e2 !important;
+    color: #212529 !important;
+}
+
+#predict-many-btn {
+    background-color: #0488e2 !important;
+    border-color: #ffff !important;
+    font-weight: 800;
+}
+
+#predict-many-btn:hover {
+    background-color: #ffff !important;
+    border-color: #0488e2 !important;
+    font-weight: 800;
+}
+
+.clickable:hover {
+    background-color: #012A56;
+    color: #ffff !important;
+}
+
+.predicted {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.label {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.instance-data{
+    border:0;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.row-data:nth-child(2){
+    background-color: darkgray important!;
+}
+
+.row-data {
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.clickable:hover > .row-data > .instance-data{
+    background-color: #012A56 !important;
+    color: #ffff;
+    text-align: center;
+}
+
+#loader {
+    display: none;
+} 
+   
+#loader-active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.85) url(../images/loading_2.svg) no-repeat center center;
+    z-index: 10000;
+}
